@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EXAMEN PROM</string>
+    <string name="textview11">MAIN MENU</string>
+    <string name="boton11">THE WEATHER</string>
+    <string name="boton12">ATOMIC DATA</string>
+    <string name="boton13">MULTIMEDIA</string>
+    <string name="boton14">EXIT</string>
+</resources>

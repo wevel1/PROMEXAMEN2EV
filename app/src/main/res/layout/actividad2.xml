@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.examen.Actividad2">
+    <TextView
+        android:id="@+id/textview21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escoge una de las siguientes localidades:"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BILBO-BILBAO"
+        android:layout_below="@id/textview21"
+        android:onClick="bilbo"/>
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VITORIA-GASTEIZ"
+        android:layout_below="@id/button21"
+        android:onClick="gasteiz"/>/>
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONOSTIA-SAN SEBASTIAN"
+        android:layout_below="@id/button22"
+        android:onClick="donosti"/>/>
+    <TextView
+        android:id="@+id/textview22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo actual en:"
+        android:layout_below="@id/button23"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/textview23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/button23"
+        android:layout_toRightOf="@id/textview22"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="volver"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora: "
+        android:id="@+id/textview24"
+        android:layout_below="@id/textview23"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: "
+        android:id="@+id/textview25"
+        android:layout_below="@id/textview24"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del cielo: "
+        android:id="@+id/textview26"
+        android:layout_below="@id/textview25"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="la hora es esta"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/textview24"
+        android:layout_below="@id/textview23"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/temperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temperatura"
+        android:layout_toRightOf="@id/textview25"
+        android:layout_below="@id/textview24"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/cielo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temperatura"
+        android:layout_toRightOf="@id/textview26"
+        android:layout_below="@id/textview25"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

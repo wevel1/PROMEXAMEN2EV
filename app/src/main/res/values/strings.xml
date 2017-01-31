@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EXAMEN PROM</string>
+    <string name="textview11">MENU PRINCIPAL</string>
+    <string name="boton11">EL TIEMPO</string>
+    <string name="boton12">DATOS ATOMICOS</string>
+    <string name="boton13">MULTIMEDIA</string>
+    <string name="boton14">SALIR</string>
+</resources>
