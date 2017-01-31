@@ -8,5 +8,123 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.dm2.examen.Actividad3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce nombre de elemento quimico:"
+        android:textSize="18dp"
+        android:id="@+id/textview31"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview31"
+        android:id="@+id/edittext31"
+        />
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext31"
+        android:layout_marginTop="20dp"
+        android:text="INFORMACION DEL ELEMENTO"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textview32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:text="Simbolo quimico: "
+        android:textSize="20dp"
+        android:layout_below="@id/button31"/>
+    <TextView
+        android:id="@+id/textview33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:text="Numero Atomico: "
+        android:layout_below="@id/textview32"/>
+    <TextView
+        android:id="@+id/textview34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:text="Peso Atomico: "
+        android:layout_below="@id/textview33"/>
+    <TextView
+        android:id="@+id/textview35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:text="Punto de Ebullicion: "
+        android:layout_below="@id/textview34"/>
+    <TextView
+        android:id="@+id/textview36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:text="Densidad: "
+        android:layout_below="@id/textview35"/>
+    <TextView
+        android:id="@+id/simbolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/textview32"
+        android:layout_below="@id/button31"/>
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_toRightOf="@id/textview33"
+        android:layout_below="@id/textview32"/>
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_toRightOf="@id/textview34"
+        android:layout_below="@id/textview33"/>
+    <TextView
+        android:id="@+id/punto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_toRightOf="@id/textview35"
+        android:layout_below="@id/textview34"/>
+    <TextView
+        android:id="@+id/densidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_toRightOf="@id/textview36"
+        android:layout_below="@id/textview35"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="volver"/>
 
 </RelativeLayout>

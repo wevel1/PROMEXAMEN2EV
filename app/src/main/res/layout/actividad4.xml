@@ -11,5 +11,12 @@
     <Spinner android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:id="@+id/CmbOpciones"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="volver"/>
 
 </RelativeLayout>

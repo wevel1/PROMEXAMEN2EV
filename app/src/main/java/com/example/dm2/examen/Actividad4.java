@@ -79,4 +79,7 @@ public class Actividad4 extends AppCompatActivity {
             Log.e("Ficheros","error en la lectura del fichero de recurso");
         }
     }
+    void volver(View v){
+        finish();
+    }
 }
